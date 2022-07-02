@@ -1,0 +1,63 @@
+.navbar{
+    background-color: rgb(255, 255, 255) !important;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+.hi{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+  
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar1 {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar1 a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar1 a:hover {
+    background-color: #eee;
+  }
+  
+  /* Current/active navbar link */
+  
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar1 a {
+      float: none;
+      display: block;
+    }
+  }
+
+  .card-img{
+    object-fit: cover;
+  }
+  .card-img:hover{
+
+  }
+  .row{
+    margin-top: 10px;
+  }
